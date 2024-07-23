@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: ado-sh-vmss
 
 steps:
 - task: Maven@3
