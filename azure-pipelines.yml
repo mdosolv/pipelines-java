@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: ado-sh-vmss
+  name: ado-mdopvnet
 
 steps:
 - task: Maven@3
